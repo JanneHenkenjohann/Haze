@@ -1,7 +1,8 @@
+/* Allgemeiner Stil für Desktop */
 body {
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: lighter;
-    font-size: 10px; /* Ändere dies auf die gewünschte Schriftgröße */
+    font-size: 16px;
     background-color: #e6b7ca;
     color: #e6b7ca;
     margin: 20px;
@@ -18,6 +19,14 @@ h1 {
 }
 
 img {
-    max-width: 35%;
-    max-height: 35vh;
+    max-width: 25%;
+    max-height: 25vh;
+}
+
+/* Stile für Bildschirmgrößen kleiner als 600px (mobil) */
+@media screen and (max-width: 600px) {
+    img {
+        max-width: 60%; /* Ändere dies auf die gewünschte Größe für mobile Geräte */
+        max-height: 60vh;
+    }
 }
