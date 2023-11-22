@@ -1,5 +1,5 @@
 body {
-    font-family: 'Helvetica Neue',sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     background-color: #e6b7ca;
     color: #e6b7ca;
     margin: 20px;
@@ -8,4 +8,10 @@ body {
 
 h1 {
     color: #fff8f8;
+}
+
+img {
+    max-width: 25%; /* Begrenzt die Breite auf 25% des Bildschirms */
+    display: block; /* Zentriert das Bild */
+    margin: 0 auto; /* Zentriert das Bild horizontal */
 }
