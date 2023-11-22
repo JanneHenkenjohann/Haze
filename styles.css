@@ -2,7 +2,7 @@
 body {
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: lighter;
-    font-size: 10px;
+    font-size: 16px;
     background-color: #e6b7ca;
     color: #e6b7ca;
     margin: 20px;
@@ -19,14 +19,22 @@ h1 {
 }
 
 img {
-    max-width: 40%;
-    max-height: 40vh;
+    max-width: 25%;
+    max-height: 25vh;
 }
 
 /* Stile für Bildschirmgrößen kleiner als 600px (mobil) */
 @media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Ändere dies auf die gewünschte Schriftgröße für mobile Geräte */
+    }
+
+    h1 {
+        font-size: 18px; /* Beispiel für die Anpassung der Überschriften-Schriftgröße */
+    }
+
     img {
-        max-width: 50%; /* Ändere dies auf die gewünschte Größe für mobile Geräte */
+        max-width: 50%;
         max-height: 50vh;
     }
 }
