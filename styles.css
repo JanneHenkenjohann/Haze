@@ -24,13 +24,13 @@ img {
 }
 
 /* Stile für Bildschirmgrößen kleiner als 600px (mobil) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (orientation: portrait) {
     body {
-        font-size: 14px; /* Ändere dies auf die gewünschte Schriftgröße für mobile Geräte */
+        font-size: 14px;
     }
 
     h1 {
-        font-size: 18px; /* Beispiel für die Anpassung der Überschriften-Schriftgröße */
+        font-size: 18px;
     }
 
     img {
