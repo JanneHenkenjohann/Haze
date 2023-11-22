@@ -4,6 +4,11 @@ body {
     color: #e6b7ca;
     margin: 20px;
     text-align: center; /* Zentriert den Text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 h1 {
@@ -12,6 +17,5 @@ h1 {
 
 img {
     max-width: 25%; /* Begrenzt die Breite auf 25% des Bildschirms */
-    display: block; /* Zentriert das Bild */
-    margin: 0 auto; /* Zentriert das Bild horizontal */
+    max-height: 25vh; /* Begrenzt die Höhe auf 25% der Bildschirmhöhe */
 }
