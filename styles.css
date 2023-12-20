@@ -3,7 +3,8 @@ body {
     background-color: #e6b7ca;
     color: #fff; /* Ändere die Textfarbe auf Weiß */
     margin: 20px;
-    text-align: left; /* Ändere auf linksbündig */
+    text-align: center; /* Ändere auf zentriert für den Body */
+
 }
 
 h1 {
@@ -27,6 +28,6 @@ img {
 }
 
 /* Text im Impressum linksbündig machen */
-#impressum-text {
+#impressum-content p {
     text-align: left;
 }
