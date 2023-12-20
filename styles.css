@@ -30,5 +30,7 @@ img {
 /* Text im Impressum linksbündig machen */
 #impressum-content {
     text-align: left;
+    max-width: 66%; /* Ändere dies auf 66% oder einen anderen Wert nach Bedarf */
+    margin: 0 auto; /* Zentriere den Text horizontal */
 }
 
