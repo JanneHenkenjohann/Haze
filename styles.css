@@ -1,9 +1,9 @@
 body {
     font-family: 'Helvetica Neue', sans-serif;
     background-color: #e6b7ca;
-    color: #e6b7ca;
+    color: #fff; /* Ändere die Textfarbe auf Weiß */
     margin: 20px;
-    text-align: center; /* Zentriert den Text */
+    text-align: center;
 }
 
 h1 {
@@ -11,12 +11,11 @@ h1 {
 }
 
 img {
-    max-width: 30%; /* Begrenzt die Breite auf 25% des Bildschirms */
-    display: block; /* Zentriert das Bild */
-    margin: 0 auto; /* Zentriert das Bild horizontal */
+    max-width: 30%;
+    display: block;
+    margin: 0 auto;
 }
 
-/* Neuer CSS-Stil für den Impressum-Button */
 .impressum-button {
     display: inline-block;
     padding: 10px 20px;
