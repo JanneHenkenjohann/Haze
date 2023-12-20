@@ -26,7 +26,7 @@ img {
     border-radius: 5px;
 }
 
-/* Füge die folgende Regel hinzu, um den Text in den Abschnitten linksbündig zu machen */
-p {
+/* Text im Impressum linksbündig machen */
+#impressum-text {
     text-align: left;
 }
