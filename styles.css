@@ -28,6 +28,7 @@ img {
 }
 
 /* Text im Impressum linksbündig machen */
-#impressum-content p {
+#impressum-content {
     text-align: left;
 }
+
