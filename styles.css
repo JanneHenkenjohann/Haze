@@ -1,17 +1,9 @@
-/* Allgemeiner Stil für Desktop */
 body {
     font-family: 'Helvetica Neue', sans-serif;
-    font-weight: lighter;
-    font-size: 12px;
     background-color: #e6b7ca;
     color: #e6b7ca;
     margin: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    text-align: center; /* Zentriert den Text */
 }
 
 h1 {
@@ -19,22 +11,18 @@ h1 {
 }
 
 img {
-    max-width: 40%;
-    max-height: 40vh;
+    max-width: 30%; /* Begrenzt die Breite auf 25% des Bildschirms */
+    display: block; /* Zentriert das Bild */
+    margin: 0 auto; /* Zentriert das Bild horizontal */
 }
 
-/* Stile für Bildschirmgrößen kleiner als 600px (mobil) */
-@media only screen and (max-width: 600px) and (orientation: portrait) {
-    body {
-        font-size: 14px;
-    }
-
-    h1 {
-        font-size: 20px;
-    }
-
-    img {
-        max-width: 90%;
-        max-height: 90vh;
-    }
+/* Neuer CSS-Stil für den Impressum-Button */
+.impressum-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #fff8f8;
+    color: #7e3f59;
+    text-decoration: none;
+    border-radius: 5px;
 }
