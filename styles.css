@@ -3,7 +3,7 @@ body {
     background-color: #e6b7ca;
     color: #fff; /* Ändere die Textfarbe auf Weiß */
     margin: 20px;
-    text-align: center;
+    text-align: left; /* Ändere auf linksbündig */
 }
 
 h1 {
@@ -24,4 +24,9 @@ img {
     color: #7e3f59;
     text-decoration: none;
     border-radius: 5px;
+}
+
+/* Füge die folgende Regel hinzu, um den Text in den Abschnitten linksbündig zu machen */
+p {
+    text-align: left;
 }
